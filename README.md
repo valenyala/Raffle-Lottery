@@ -1,5 +1,5 @@
 # Raffle Lottery
-This repository is part of the learning process from the [Foundry course](https://github.com/Cyfrin/foundry-full-course-f23) course of [@PatrickAlphaC](https://github.com/PatrickAlphaC). It is coded following the lesson for practice purposes.
+This repository is part of the learning process from the [Foundry course](https://github.com/Cyfrin/foundry-full-course-f23) course from [@PatrickAlphaC](https://github.com/PatrickAlphaC). It is coded following the lesson for practice purposes.
 
 
 ## Features
