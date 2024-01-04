@@ -1,66 +1,11 @@
-## Foundry
+# Raffle Lottery
+This repository is part of the learning process from the [Foundry course](https://github.com/Cyfrin/foundry-full-course-f23) course of [@PatrickAlphaC](https://github.com/PatrickAlphaC). It is coded following the lesson for practice purposes.
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
+## Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Entrance Mechanism:** Participants can enter the lottery by invoking the `enter()` function, submitting a payment in cryptocurrency.
+- **Round-based System:** The lottery operates in rounds, with each round closing after a predefined time period.
+- **Random Winner Selection:** At the end of each round, the smart contract leverages a secure randomization algorithm to select a winner from the pool of participants.
+- **Prize Distribution:** The total sum of cryptocurrency collected during a round is automatically transferred to the selected winner.
 
-## Documentation
-
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
